@@ -1,5 +1,5 @@
 {
-    "masterVersionFile":"https://raw.githubusercontent.com/Protonus-xen/Red-and-Blue/master/XLU.version",
+    "masterVersionFile":"https://raw.githubusercontent.com/Protonus-xen/Blue/master/XLU.version",
     #"masterVersionFile":"https://bitbucket.org/Protonus/red-and-blue/downloads/XLU.version",
     "modName":"Extratential Lanestate Union",
     "modThreadId":14041,
@@ -7,6 +7,6 @@
     {
         "major":0,
         "minor":7,
-        "patch":5
+        "patch":5a
     },
 }
