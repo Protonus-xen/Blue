@@ -1,0 +1,1325 @@
+**** Version 0.8.4-RC1 ****
+	Updated for 0.98a-RC5.
+	Weapons:
+		Lusis MIRV Launcher:
+			Fixed burst description.
+	Faction:
+		Updated for Simulator compatibility.
+
+**** Version 0.8.4 ****
+	Campaign:
+		Spawn preference of Lanestate faction ship types for the XLU is increased.
+	Ships:
+		Added the Icosahedrite Pocket Titan, an almost full blown titan. Almost. Has multiple Stratus cannons and oversized TPCs.
+			Blueprint cannot be dropped by rare means, since they're not, lorewise, even made in the sector.
+		Added the Wolfsteel cruiser, a retrofitted Ferros that loses its turrets so it can phase. That's it.
+		Variants:
+			Refilled some missing OP on certain variants as Salamander weapons became cheaper.
+		XLU Weapons Overhaul:
+			Ballistic Flux Efficiency increased from 25% to 30%.
+		Power Burn shipsystem:
+			Altered to be used exclusively for the Pocket Titan.
+		Azurim:
+			Armor Section:
+				Ordinance points removed.
+	Weapons:
+		Stubbon Thumper:
+			Damage per shot increased from 55 to 60.
+			Flux per shot reduced from 20 to 15.
+			Ammo Capacity increased from 30 to 40.
+			Ammo per second reduced from 5 to 4.
+			Ammo reload size reduced from 30 to 20.
+		Mulleter Thumper:
+			Ordinance cost reduced from 12 to 10.
+			Charge Down time reduced from 2.3 to 1.8.
+			Spread per shot reduced from 1 to 0.2.
+			Spread decay reduced from 20 to 5.
+		Hovlet Cannon:
+			Bullet size reduced, matching the Thumper shots.
+			Range increased from 700 to 800.
+			Damage per shot increased from 85 to 100.
+			Flux per shot reduced from 25 to 20.
+		Hypershot Flak Cannon:
+			Ordinance cost reduced from 11 to 10.
+			Impact increased from 10 to 30.
+			Flux per shot increased from 80 to 100.
+			Spread per shot removed from 2 to 0.
+			Primary Role changed from "Point Defense (Area)" to "Anti-Fighter".
+		Thunderslug Hellbore:
+			Projectile length increased from 50 to 150.
+			Damage per shot reduced from 1500 to 1200.
+			Flux per shot reduced from 1200 to 900.
+			Charge up given to 0.2.
+			Cooldown per shot reduced from 3.5 to 2.8.
+			Spread per shot reduced from 5 to 2.5.
+		Lusis MIRV Launcher:
+			MIRV missile overhauled, from a simple multi-stage MIRV to a DEM missile launcher.
+			MIRV will fire targeting lasers for the first 3 seconds before firing payload.
+			MIRV firing range changed from 1500 Split to 1000 DEM.
+			Missile count per burst reduced from 6 to 4.
+			Burst size increased from 4 to 6.
+			MIRV hull points increased from 500 to 1000.
+		Stratus Cannon (and Dual):
+			Projectile width increased from 16 to 20.
+			Projectile length size quadrupled from 72 to 288, in order to determine the direction where the projectile is heading.
+
+**** Version 0.8.3 ****
+	Campaign:
+		Lanestate Battleyards:
+			Now has an Extreme danger when disrupting or raiding.
+	Ships:
+		Armorclad Works:
+			Now carries extra hammers. (Some loadouts are changed to reflect this.)
+			Weapon Durability bonus increased from +50% to +100%.
+			Base Armor strength increased from 50/75/100/150 to 100/150/200/300.
+			Kinetic Armor damage resistance:
+				Now switched to Kinetic damage resistance.
+				Resistance value increased from 25% to 30%.
+		Lithoframe Works:
+			Added Deployment cost malus by +1/+3/+6/+10.
+			Added Non-beam Energy and Hybrid base range increase by 100.
+			Default Energy damage resistance increased from 20% to 25%.
+			Kinetic damage taken malus reduced from 40% to 30%.
+		Kite (Litho):
+			Removed the parallel ghost medium mount.
+			Added a Hammer Bays built-in hullmod, exclusively to add more hammer torpedoes.
+			Shield Upkeep reduced from 0.4 to 0.2.
+		Alum:
+			Shield Upkeep reduced from 0.6 to 0.4.
+		Zinc:
+			Stubbon Thumper built-ins are replaced with Vulcans, are reoriented 
+				to protect the rear and has angle ranged increased from 150 to 180.
+			Flux Capacity increased from 3000 to 4000.
+			Flux Dissipation increased from 250 to 350.
+			Shield Efficiency reduced from 1.2 to 1.4.
+			Shield Upkeep reduced from 0.4 to 0.3.
+			Base Supply maintenance/recovery costs and Deployment points increased from 9 to 10.
+		Butane (Litho):
+			Shield Upkeep reduced from 0.4 to 0.2.
+		Stibium:
+			Flux Capacity increased from 5000 to 6000.
+		Cobble:
+			Shield Upkeep reduced from 0.5 to 0.3.
+		Carbide:
+			Shield Upkeep reduced from 0.6 to 0.3.
+		Colossus (XLU):
+			Price increased from 45000 to 85000.
+			Fleet points increased from 13 to 15.
+			Flux Capacity increased from 6000 to 8000.
+			Flux Dissipation increased from 300 to 400.
+			Crew capacity increased from 240 to 300.
+			Cargo capacity reduced from 400 to 300.
+			Base Supply maintenance/recovery costs and Deployment points increased from 18 to 20.
+		Colossus (Litho):
+			Armor increased from 1300 to 1350.
+			Flux Capacity increased from 15000 to 16000.
+			Flux Dissipation increased from 900 to 950.
+			Crew capacity increased from 240 to 200.
+			Cargo capacity reduced from 300 to 250.
+			Base Supply maintenance/recovery costs and Deployment points reduced from 26 to 24.
+		Duralumin:
+			Flux Capacity increased from 8000 to 10000.
+			Flux Dissipation increased from 500 to 650.
+			Shield Efficiency reduced from 1 to 1.2.
+			(XL):
+				Flux Capacity increased from 10000 to 12000.
+		Ferros:
+			Flux Capacity increased from 10000 to 12000.
+		Kaolinite (Base):
+			Added a Hammer Bays built-in hullmod.
+			(XLU):
+				Shield Upkeep reduced from 0.4 to 0.3.
+				Base Supply maintenance/recovery costs and Deployment points increased from 44 to 45.
+			(Litho):
+				Added a Hammer Bays built-in hullmod.
+				Flux Capacity increased from 22000 to 24000.
+				Flux Dissipation increased from 1100 to 1200.
+				Shield type changed from Front to Omni.
+				Base Supply maintenance/recovery costs and Deployment points increased from 44 to 45.
+		Pumpmaster:
+			Added a Hammer Bays built-in hullmod.
+		Anthracite:
+			2 Small Ballistic turret at the front are switched to Composites to accomodate Hammer torpedoes.
+			Arms:
+				1 Medium Ballistic at the front is switched to Composites to accomodate Hammer torpedoes.
+	Wings:
+		Mattocks:
+			Added stay_in_front_of_ship and auto_fighter tags.
+			Fixed the loadout weapon grouping that prevents the weapons from firing correctly.
+	Weapons:
+		Geezer Fusor Cutter:
+			Fired beam effect adjusted to be less brighter.
+			Beam fan angle offset changed from a maximum of 2 to 5 degrees.
+		Geezer Industrial Cutter:
+			Fired beam effect adjusted to be less brighter.
+			Beam fan angle offset changed from a maximum of 6 to 25 degrees.
+
+**** Version 0.8.2-RC3 ****
+	Ships:
+		Heatflux Chamber hullmod:
+			Fixed value that made the flux generation reduction absurd.
+			Fixed Projectile Speed bonus that was using flux generation reduction that was at decimal value.
+			
+**** Version 0.8.2-RC2 ****
+	Ships:
+		Gadolinite:
+			Added a Shell Shielding hullmod that reduces explosion damage on death significantly.
+			
+**** Version 0.8.2-RC1 ****
+	Ships:
+		Added the Pumpmaster, a Pirate conversion of the Kaolinite, with a forwarded large mount and a nasty surprise from behind.
+		Lanestate Breezer Rounds:
+			Removed the unneeded multiplier that renders an absurd increase of flux generation and damage.
+		Kaolinite:
+			Deployment, Recovery/Maintenance per month supply cost increased from 34 to 35.
+
+**** Version 0.8.2 ****
+	Updated to version 0.96a-RC8.
+	Campaign:
+		Nemvis is moved from 6000, 5000 to 12000, 5500.
+		Lanestate Battleyards:
+			Provides 1 Stability when built and active.
+	Ships:
+		Added new Ultra-braced Bulkheads hullmod.
+			Increases hull, minimum armor and a slight kinetic damage resistance.
+			When S-modded, further increases kinetic resistance and adds EMP resistance.
+			Ships that tend remove shields will most likely have them.
+		No more yellow (mostly) paint on most of the ship sprites. Again. 
+			Received complaints on how jarring the color is.
+		Litho variant ships now appear in the Lanestate roster:
+			Usually, does not Voccor Bulk Thrusters.
+			Have 20% resistance against Energy damage.
+			Have 10% Energy flux efficiency.
+			But take extra damage against Kinetic weapons.
+			Lithoframe Works functions the same as Armorclad Works for hullmod requirements.
+			Blue Kite returns with a Litho kit.
+		Hullmods:
+			All necessary scripted descriptions and tooltips will use the string file for editing.
+		XLU Weapons Overhaul:
+			Tier added, set to 2.
+			Can be installed in Lithoframe Works.
+		Heatflux Chamber:
+			Tier added, set to 1.
+			No longer requires Docking to fit.
+			When S-modded, adds a Flux cost reduction and Projectile Speed increase for Ballistic weapons.
+		Lanestate Breezer Rounds:
+			Tier added, set to 1.
+			When S-modded, adds a Damage increase and Flux cost reduction for Ballistic weapons.
+		Calc:
+			Resprited and overhauled.
+			Modular slot changes:
+				From 2 Medium Ballistic, 1 Small Hybrid, 1 Small Missile, 1 built-in Gatler, 1 built-in 40th Autocannon.
+				To 2 Medium Ballistic, 2 Small Ballistic, 2 Small Missile, 1 built-in Gatler.
+			Top Speed reduced from 150 to 120.
+			Deceleration reduced from 125 to 100.
+			Max turn speed increased from 45 to 60.
+			Turn Acceleration reduced from 120 to 100.
+		Lead:
+			Removed Delicated Machinery and Phase Field hullmods.
+			Added built-in Ballistic Rangefinder hullmod.
+			Hull increased from 2000 to 2500.
+		Tin (40th):
+			Resprited for a more distinct outfit signal, otherwise mostly unchanged.
+		Colossus (XLU):
+			Hull increased from 6000 to 7000.
+			Armor increased from 700 to 800.
+			Colossus Mining Blaster:
+				Receives Mining Blaster armor stripping effect.
+				Damage Type changed from Energy to High Explosive.
+				Damage per shot reduced from 800 to 200.
+				Flux per shot reduced from 800 to 150.
+				Ammo size added to 16.
+				Ammo regeneration added to 1.5.
+				Ammo reload size added to 4.
+				Charge up delay reduced from 1 to 0.3.
+				Cooldown between burst reduced from 3.7 to 0.2.
+				Burst delay reduced from 0.3 to 0.1.
+				Burst size increased from 2 to 4.
+				Projectile speed increased from 900 to 1000.
+		Azurim:
+			Resprited and overhauled.
+			Modular slot changes:
+				From 1 Large Hybrid, 2 Medium Composite, 4 Small Ballistic, 2 Gatler cannon built-in (+ 5 Small Ballistic in modular section)
+				To 1 Large Hybrid, 2 Medium Composite, 6 Small Ballistic, 3 Small Energy, 4 Gatler cannon built-in (no weapons in modular section).
+			Hull reduced from 9000 to 8000.
+			Armor increased from 1250 to 1400.
+			Ordinance points increased from 160 to 180.
+			Armor Section:
+				Removed all weapon slots. (See Modular slot changes)
+				Ordinance points reduced from 60 to 40.
+		Scheelite:
+			Sprite modified with some small turrets moved around.
+			Removed 4 Mining Lasers.
+			Added 2 built-in Geezer Fusor Cutters.
+			Added 2 Small Composite hardpoints.
+			Ordinance points increased from 100 to 110.
+		Gadolinite:
+			Magnetoclad Shell:
+				Reduces armor strength reduction from 4x to 2.5x.
+				Flat armor strength increased from 150 to 250.
+				Minimum armor bonus increased from 5% to 10%.
+		Kaolinite:
+			Added a reduced built-in Rugged Construction, Robust Construction hullmod.
+			Sprite updated and weapon mount position adjustments. Weapon slot count remains unchanged.
+		Anthracite:
+			Multi-command Hull separation threshold reduced from 90% to 40%, akin to a last resort mechanic.
+	Weapons:
+		Added Kowbac Pulse Battery and Gatling Laser:
+			IR Pulse Laser variants that boast firing speed but with low damage per shot.
+		Added Geezer Fusor Cutter and Industrial Cutter:
+			High damage but short ranged beams with a very wide coverage.
+		Light Tri-Autocannon:
+			Flux per shot reduced from 50 to 40.
+			Maximum Spread reduced from 25 to 20.
+			Accuracy spread increase per shot reduced from 4 to 2.
+		Light Assault Mortar 40th:
+			Flux per shot reduced from 35 to 32.
+		Augmented Laser:
+			Flux per second reduced from 180 to 135.
+		Bolton Cannon:
+			Projectiles now pass through missiles.
+		Mulleter Thumper:
+			Cooldown between bursts reduced from 2.9 to 2.3.
+		Quad Autocannon:
+			Flux per shot reduced from 85 to 80.
+		Heavy Autocannon 40th:
+			Damage per shot increased from 110 to 120.
+			Maximum Spread reduced from 18 to 10.
+			Accuracy Spread increase per shot reduced from 2 to 1.25.
+			Projectile Speed increased from 900 to 1200.
+		Bracken Assault Mortar:
+			Range increased from 700 to 800.
+		Phalanx Minigun Array:
+			Resprited and somewhat modified.
+			Barrels have been moved to reflect the redesign.
+		Warbore Assault Cannon:
+			Due to sharing the same projectile with Hellbore:
+				Projectiles now pass through fighters if they are destroyed on impact.
+		Thunderslug Hellbore:
+			Projectiles now pass through fighters if they are destroyed on impact.
+		Rodstorm Chaincannon:
+			Projectiles now pass through fighters if they are destroyed on impact.
+		Stratus Cannon (all variants):
+			Projectiles now pass through fighters and will continue to pass even if they did not destroy them.
+			Note of mentioned characteristic is added.
+		Ultra Heavy Shotcannon:
+			Projectiles now pass through fighters if they are destroyed on impact.
+
+**** Version 0.8.1a-RC2 ****
+	Ships:
+		Phosphor:
+			Added tags that, hopefully, render it unbuildable in Custom production as a Station-exclusive drone.
+
+**** Version 0.8.1a-RC1 ****
+	Ships:
+		XLU Weapons Overhaul:
+			Added logics in the Ammo bonus descrition that prevent continuous check up for a missing ship.
+
+**** Version 0.8.1a ****
+	Ships:
+		Gadolinite:
+			Magnetonclad Shell:
+				Armor Strength divider reduced from 5 to 4.
+				Flat Armor Strength reduced from 200 to 150.
+	Weapons:
+		Stratus Cannon:
+			(Dual+) Now explodes on hit dealing 50% to nearby objects.
+			(Dual+) Damage per shot increased from 1250 to 1500.
+			(Dual+) Flux per shot reduced from 2500 to 1350.
+			Charge Up time reduced from 0.5 to 0.2.
+			Charge Down time increased from 5.5 to 5.8.
+		Dual Stratus Cannon:
+			Charge Up time reduced from 0.25 to 0.2.
+			Charge Down time increased from 3.25 to 3.3.
+			
+**** Version 0.8.1 ****
+	Missions:
+		Added Laughing Stocks.
+	Ships:
+		Armorclad Works:
+			Corrected the hullmod condition that removes the High Explosive penalty, "flux_shunt" to "shield_shunt".
+			Armor Strength bonus nerf somewhat reverted, from 30% to 25% + 50/75/100/150.
+			Armor Strength for Fighters reduced from 100 to 50.
+			Kinetic Damage now only affects Armor.
+			High Explosive penalty reduced from 25% to 20%.
+			Added Weapon Health bonus of 50%.
+		Juggernaught Classification:
+			Undergoes Juggernaut pass similar to the dedicated mod.
+			Missile Range/Speed bonuses no longer provides a weird estimate value from non-Missile weapon range bonus and will directly give 25% increase instead.
+			Sight bonus increased from 10% to 20%.
+			No longer has Turret turn rate penalty.
+			No longer increases Supply Maintenance/Repair costs.
+			Gives additional Armor Strength of 100.
+		Voccor Bulk Thrusters:
+			Gradual Loss effect is now correctly calculated, slower bonus speed loss.
+			Flux Dissipation bonus will be displayed along with its Top Speed bonus.
+			Flux Dissipation bonus is now a multiplier, affected by hullmod changes and flux vents used.
+			Now increases Acceleration tied to Top Speed.
+		XLU Weapons Overhaul:
+			Weapon Strength to Armor reduced from 20% to 10%.
+			Flux Dissipation penalty reduced from 25% to 20%.
+		Alum:
+			Dilation Damper:
+				Now uses Damper Field logic instead of Temporal Shell.
+				Charge regeneration increased from 30 seconds to 20.
+				Maximum Charges increased from 2 to 3.
+				Duration time reduced from 6 to 4.
+				Cooldown reduced from 3 to 2.
+				Damage resistance increased from 60% to 67%.
+				Now provides flat Armor Strength when used.
+			Ordinance points increased from 40 to 45.
+		Brass:
+			Flux Dissipation increased from 240 to 250.
+		Zinc:
+			Armor increased from 650 to 700.
+			Flux Dissipation increased from 200 to 250.
+		Ferros:
+			Acceleration increased from 35 to 40.
+		Gadolinite:
+			Magnetonclad Shell:
+				Receives a flat consistent armor strength of 200, in addition to its existing armor traits.
+		Kaolinite:
+			Armor increased from 1750 to 1850.
+			Top Speed increased from 40 to 50.
+			Acceleration increased from 20 to 25.
+			Deceleration increased from 18 to 22.
+			Maximum Turn rate increased from 10 to 15.
+			Turn Acceleration increased from 7 to 10.
+			XLU:
+				Armor increased from 1800 to 1850.
+		Anthracite:
+			Base variant has migrated to another mod while XLU variant replaces its ID.
+			Arms will now separate and fight independently once hull is below a threshold.
+			Hull reduced from 28000 to 27000.
+			Armor increased from 1850 to 2000.
+			Arms:
+				Armor increased from 1500 to 1600.
+				Flux Capacity increased from 8500 to 10000.
+	Weapons:
+		Added Watusi LRM Barrage.
+		Gyropult Bomb Bay:
+			(Maximum) Projectile Speed increased from 350 to 500.
+			Launch Speed increased from 50 to 100.
+		Watusi LRM:
+			Mirv launch range increased from 300 to 500.
+			Market tier reduced from 1 to 0.
+			Ordinance cost reduced from 10 to 7.
+			Faction Blueprint tag changed from Heavy to Basic.
+			Range increased from 4000 to 6000.
+			Base Damage reduced from 200 to 150.
+			Ammo per second increased from 0.1667 to 0.25.
+			Missile Speed reduced from 175 to 100.
+			Launch speed reduced from 200 to 50.
+			Flight time reverted from 30 to 80.
+			Warhead:
+				Spec type changed from projectile to missile.
+				Damage reduced from 400 to 150.
+				Damage type reverted from Fragmentation to High-Explosive.
+				
+**** Version 0.8 ****
+	Updated to 0.95.1a-RC6.
+	Campaign:
+		Nemvis:
+			Mining industry removed, while Gamma Core is moved to Population.
+	Missions:
+		Expanded Fleet Testing:
+			Seperated Starliner, Starcrusher, Onslaught XLU and Tritanite to a new Others Testing mission.
+		Others Testing:
+			New mission that allows testing of stations and the unlikely ships of the Lanestate Union.
+	Ships:
+		Most of the Basic blueprint ships are now added in the bounty roster.
+		*Warning* Roster Removals:
+			Gaul, roled fulfilled by Zinc.
+			Sunder XLU, role fulfilled by Stibium.
+			Lithium, role fulfilled by Stibium.
+			Sulfate, role fulfilled by Carbide and Colossus XLU.
+		Added the Voccor Bulk Thrusters built-in to existing XLU ships:
+			Replaces the Power Burn ship system.
+			Increases speed if flown in a straight line, gradually loses the bonus when turning.
+			Ship speeds are likely to be adjusted with this addition.
+		Armorclad Works:
+			Removed Shield Shunt bonuses.
+			Shield Shunt now negates the extra HE damage provided by the hullmod.
+			Armor Effectiveness bonus is reduced from 20% + 250/350/500/700 to 30%. Fighters still benefit from the additive increase.
+			The hidden stat explosion damage and radius upon death is reduced from 50%/20% to 25%/10%.
+			Supply Maintenance/Recovery reduction reduced from 30% to 20%.
+		Assault Deck Integration:
+			No longer says it turns the ship AI into a combat ship instead of carrier. (effect was provided by the ship_data regardless)
+			Repurposed for Colossus XLU.
+			Reduces costs for Mattocks by 2.
+		Rampart Integration:
+			Range bonus altered from 1.2x multiplier to 200 base units.
+		Lanestate Tourney Meisters:
+			Fire Rate bonus removed.
+			Accuracy bonus is now a non-XLCrew bonus and increased from 10% to 15%.
+			Warshots give 10% Damage Hit strength bonus.
+		XLU Weapons Overhaul:
+			Flux Dissipation penalty reduced from 33% to 25%.
+		XLCrew Waymaker Compliment:
+			Removed Shipsystem Cooldown reduction and Logistics capacity bonuses.
+			Shipsystem range bonus reduced from 20% to 10%.
+			Sensor bonus for non-XLU ships are now correctly in effect.
+		XLCrew Warshots Company:
+			Removed EMP resistance and Shield bonuses.
+			Turret Turn speed no longer downscales if not an XLU hull.
+			Turret Health bonus reduced from 50% (25%) to 40%. No longer downscales if not an XLU hull.
+		XLCrew Hardy Boys Battalion:
+			Removed Effective Armor bonus.
+			Replacement Recovery bonus reduced from 20% (10%) to 10% (5%).
+		40th Battlegroup:
+			Remade theme to fit the Domain-era doctrine, specifically the Colossus.
+		Alum:
+			Resprited and Overhauled.
+			Designation changed from Gunboat to Armored Frigate.
+			Rugged Construction hullmod added.
+			Modular slot changes:
+				From 1 Small Composite, 2 Small Ballistic, 2 Bolton Cannon built-in
+				To 1 Small Universal, 4 Small Ballistic.
+			Hull reduced from 2500 to 2000.
+			Armor increased from 550 to 600.
+			Base Flux Dissipation increased from 240 to 250.
+			Top Speed increased from 120 to 140.
+			Omni Shield with 90 degrees and 1.2 efficiency added.
+		Brass:
+			Is now tagged from Heavy to Basic blueprint.
+			Designation changed from Gunship to Frigate.
+			Shipsystem changed from Accelerated Ammo Feed to Manuevering Jets.
+			Fleet points increased from 9 to 7.
+			Top Speed increased from 100 to 120.
+			Maximum Turn Speed increased from 60 to 75.
+			Turn Acceleration increased from 40 to 75.
+			Mass reduced from 280 to 250.
+			Shield Angle increased from 150 to 180.
+			Base Credit Value reduced from 20000 to 14000.
+			Base Supply Maintenance/Recovery per month cost reduced from 8 to 7.
+		Lead:
+			Sprite adjusted.
+			Is now tagged from Basic to Heavy blueprint.
+			2 Small Ballistic mounts added.
+			Hull increased from 1500 to 2000.
+			Armor increased from 500 to 550.
+			Ordinance points increased from 45 to 55.
+			Turn Acceleration reduced from 120 to 60.
+			Phase Activation cost increased from 6% to 7%.
+			Phase Upkeep cost reduced from 6% to 5%.
+			Mass increased from 225 to 300.
+			Skeleton Crew increased from 30 to 35.
+			Base Supply Maintenance/Recovery per month cost increased from 9 to 14.
+		Zinc:
+			Resprited.
+			Is now tagged from Basic to Heavy blueprint.
+			Designation changed from Frigate to Heavy Frigate.
+			Modular slot changes:
+				From 1 Medium Ballistic, 5 Small Ballistic
+				To 5 Small Ballistic, 2 Small Missiles.
+			Added 2 Stubbon Thumper built-ins.
+			Fleet points increased from 7 to 9.
+			Hull increased from 2000 to 3000.
+			Armor increased from 350 to 650.
+			Flux Capacity increased from 2000 to 3000.
+			Ordinance points increased from 55 to 65.
+			Top Speed reduced from 110 to 100.
+			Maximum Turn Speed increased from 45 to 60.
+			Turn Acceleration reduced from 75 to 60.
+			Mass increased from 260 to 300.
+			Shield Type changed from Omni to Front.
+			Shield Angle increased from 90 to 120.
+			Shield Efficiency reduced from 1 to 1.2.
+			Skeleton Crew increased from 20 to 35.
+			Crew capacity increased from 40 to 60.
+			Base Credit Value increased from 14000 to 20000.
+			Base Supply Maintenance/Recovery per month cost increased from 6 to 9.
+		Butane:
+			Shipsystem changed from Power Burn to Burn Drive.
+		Cobble:
+			Ordinance Points increased from 35 to 50.
+		Espron:
+			Designation changed from Destroyer to Monitor.
+			Fleet Points reduced from 13 to 10.
+			Hull reduced from 5000 to 3500.
+			Acceleration increased from 30 to 45.
+			Deceleration reduced from 35 to 25.
+			Mass reduced from 550 to 400.
+			Shield Type changed from Omni to Front.
+			Shield Angle increased from 120 to 240.
+			Base Supply Maintenance/Recovery per month cost reduced from 13 to 11.
+			XL:
+				Designation changed from Destroyer to Heavy Monitor.
+				Hull reduced from 5500 to 4000.
+				Top Speed reduced from 80 to 70.
+				Acceleration reduced from 60 to 50.
+				Deceleration reduced from 40 to 30.
+				Mass reduced from 650 to 500.
+				Shield Type changed from Omni to Front.
+				Shield Angle increased from 120 to 240.
+		Stibium:
+			Resprited.
+			Designation changed from Tank Destroyer to Destroyer.
+			Now has Carrier, Combat and No Auto Escort tags.
+			Shipsystem changed from Microburn to Canister Flak.
+			Added Trusty Hangar Bay hullmod built-in.
+			Modular slot changes:
+				From 1 Large Ballistic, 1 Medium Ballistic, 2 Small Hybrid, 2 Small Missile, 4 Small Ballistic
+				To 1 Large Hybrid (Hangar replacement), 1 Medium Ballistic, 2 Small Hybrid, 2 Small Composite, 4 Small Ballistic.
+			Hull increased from 4000 to 5000.
+			Armor increased from 600 to 800.
+			Mass increased from 400 to 600.
+			Shield Flux efficiency reduced from 1 to 1.4.
+			Fuel Capacity increased from 90 to 120.
+			Fuel per Lightyear increased from 3 to 4.
+			Base Credit Value increased from 42000 to 50000.
+		Carbide:
+			Resprited. Turrets and Hardpoints are repositioned to the new sprite.
+			Designation changed from Combat Freighter to Cruiser.
+			Now has Carrier, Combat and No Auto Escort tags.
+			Shipsystem changed from Power Burn to Active Flares.
+			Heavy Ballistic Integration built-in added.
+			Added 1 Large Ballistic Turret.
+			Fleet Points increased from 14 to 16.
+			Armor increased from 900 to 1100.
+			Flux Capacity increased from 6000 to 9000.
+			Flux Dissipation increased from 400 to 600.
+			Shield Flux efficiency reduced from 1 to 1.4.
+			Base Supply Maintenance/Recovery per month cost increased from 17 to 21.
+			Ordinance points increased from 90 to 125.
+			Mass increased from 1000 to 1200.
+			Cargo reduced from 800 to 650.
+		Duralumin:
+			Shipsystem changed from Active Flares to Accelerated Ammo Feed.
+			Hull increased from 9000 to 10000.
+			Armor reduced from 1000 to 900.
+		Colossus XLU:
+			Sprite adjustment.
+			Civilian Tag and hullmod removed.
+			Now has a Carrier tag.
+			Now considered a Heavy blueprint instead of Basic.
+			Designation changed from Mining Freighter to Carrier.
+			Assault Deck Integration built-in added.
+			Medium Ballistic Turret is now Universal.
+			Added 1 additional hangar bay, from 2 to 3.
+			Fleet Points increased from 9 to 13.
+			Hull increased from 6000 to 7000.
+			Flux Capacity increased from 5000 to 6000.
+			Flux Dissipation increased from 200 to 300.
+			Ordinance points increased from 75 to 100.
+			Top Speed reduced from 45 to 40.
+			Acceleration reduced from 25 to 20.
+			Skeleton Crew increased from 60 to 150.
+			Crew Capacity increased from 120 to 240.
+			Cargo Capacity reduced from 650 to 400.
+			Base Supply Maintenance/Recovery per month cost increased from 11 to 18.
+		Cobalt:
+			Resprited. Turrets and Hardpoints are repositioned to the new sprite.
+			Hull increased from 8500 to 9000.
+			Armor increased from 1500 to 1600.
+			Flux Capacity increased from 14000 to 15000.
+			Ordinance Points increased from 190 to 200.
+			Top Speed reduced from 50 to 40.
+			Deceleration increased from 8 to 12.
+			Maximum Turn Speed increased from 10 to 14.
+			Turn Acceleration increased from 6 to 10.
+			Skeleton Crew increased from 250 to 200.
+			Crew capacity increased from 350 to 300.
+			Base Supply Maintenance/Recovery per month cost increased from 30 to 36.
+		Macrolloy:
+			Resprited. Turrets and Hardpoints are repositioned to the new sprite.
+			Designation changed from Armored Cruiser to Weapon Platform.
+			Modular slot changes:
+				From 3 Large Ballistic, 1 Medium Composite, 3 Small Composite, 4 Small Ballistic, 1 Gatler Cannon built-in
+				To 3 Large Ballistic, 1 Medium Missile, 2 Medium Ballistic, 1 Medium Hybrid, 3 Small Ballistic, 1 Small Composite, 2 Gatler Cannon built-in.
+			Fleet Points increased from 13 to 17.
+			Hull increased from 7500 to 8000.
+			Armor increased from 1000 to 1100.
+			Flux Capacity increased from 7500 to 9000.
+			Ordinance Points increased from 130 to 150.
+			Shield Angle increased from 90 to 120.
+			Shield Efficiency reduced from 1 to 1.4.
+			Skeleton Crew increased from 100 to 120.
+			Crew capacity increased from 150 to 180.
+			Base Supply Maintenance/Recovery per month cost increased from 26 to 30.
+		Chrominus:
+			Top Speed reduced from 60 to 50.
+			Large Hybrid Hardpoint swapped with Large Composite Turret on the center.
+			New shifted Hybrid Turret angle increased from 150 to 240.
+		Diaboleite:
+			Resprited and overhauled.
+			Modules are removed but will receive 2 hangars to compensate.
+			Now has Carrier, Combat and No Auto Escort tags.
+			Advanced Turret Gyros, Industrial Payload Tracker and Heavy Ballistic Integration hullmods removed.
+			Rampart Integration hullmod built-in added.
+			Designation changed from Tech Battleship to Battlecruiser.
+			Modular slot changes:
+				From 4 Large Composite, 1 Stratus Cannon built-in, 2 Gatler Cannon built-in
+				To 4 Medium Composite, 24 Small Ballistic, 2 Small Hybrid, 1 Stratus Cannon built-in, 4 Gatler Cannon built-in.
+			Hull reduced from 13000 to 12000.
+			Armor reduced from 1600 to 1500.
+			Flux Capacity increased from 12000 to 14000.
+			Ordinance points increased from 180 to 260.
+			Top Speed reduced from 70 to 60.
+			Acceleration increased from 25 to 40.
+			Deceleration increased from 20 to 30.
+			Maximum Turn Speed increased from 10 to 15.
+			Turn Acceleration increased from 4 to 7.
+			Shield Efficiency reduced from 1 to 1.2.
+			Base Credit Value reduced from 435000 to 350000.
+			Base Supply Maintenance/Recovery per month cost increased from 38 to 40.
+		Gadolinite:
+			Depolarized Shields hullmod:
+				Rewritten as Magnetonclad Shell.
+				Reduces Armor Effectiveness, down to 20%. This discards Armorclad Armor Effectiveness bonus.
+				Increases Armor by 3x.
+				Increases Minimum Armor by 5%.
+			Now has Carrier, Combat and No Auto Escort tags.
+			Hull increased from 14000 to 15000.
+			Base Armor increased from 2000 (6000) to 2250 (6750).
+			Ordinance points increased from 310 to 320.
+			Skeleton Crew increased from 600 to 700.
+			Crew Capacity increased from 900 to 1000.
+			Base Supply Maintenance/Recovery per month cost increased from 50 to 60.
+			Base Credit Value increased from 380000 to 425000.
+			Shield Generator:
+				Hull increased from 1000 to 2000.
+				Flux Capacity increased from 10000 to 12000.
+				Flux Disipation increased from 600 to 750.
+				Ordinance points increased from 90 to 100.
+				Mass increased from 150 to 1000.
+				Shield Size radius increased from 290 to 300.
+		Kaolinite:
+			Armor increased from 1650 to 1750.
+			Base Credit Value increased from 320000 to 350000.
+			XLU:
+				Sprite polished.
+				Designation changed from Battleship to Fast Battleship.
+				Shipsystem changed from Power Burn to Vector Punch Jets.
+				Hull reduced from 15500 to 15000.
+				Top Speed reduced from 45 to 40.
+				Base Credit Value increased from 375000 to 400000.
+				Base Supply Maintenance/Recovery per month cost increased from 40 to 44.
+		Onslaught XLU:
+			Shipsystem changed from Power Burn to Burn Drive.
+		Pyridoxate:
+			No longer has the No Auto Escort tag.
+			Armor increased from 1400 to 1500.
+			Base Supply Maintenance/Recovery per month cost increased from 64 to 68.
+		Anthracite:
+			XLU:
+				Shipsystem changed from Power Burn to Burn Drive.
+		Uranium:
+			Shipsystem changed from Power Burn to Burn Drive.
+			Death explosion power increased by 50%. Not particularly noticeable, but it will make its unintentional use more feasible.
+	Wings:
+		Guna:
+			Refit Time increased from 20 to 25.
+			Hull reduced from 650 to 450.
+			Armor reduced from 150 to 125.
+			All 4 Light Autocannons are replaced with Guna-bore variants, less fire rate but more damage per shot.
+			2 Annihilator Rockets (Fighter) added.
+		Kalis:
+			Refit Time reduced from 50 to 40.
+			XLU Weapons Overhaul and Insulated Engine hullmods removed.
+			Shield has been removed.
+			Hull increased from 1100 to 1200.
+			Armor increased from 200 to 250.
+			Arsenal changed:
+				From 4 Light Assault Gun, 2 Vulcan Shotgun, 2 Annihilator Rocket (Fighter)
+				To 4 Vulcan Shotgun, 2 Guna-bore Autocannon, 1 Gatler Cannon, 2 Swarmer Missiles (Fighter).
+		Kampilan:
+			XLU Weapons Overhaul hullmod removed.
+			Hull reduced from 450 to 360.
+			Armor reduced from 125 to 40.
+			2 Vulcan Shotguns replaced with 1 Gatler Cannon fighter variant.
+			1 Annihilator Rocket (Fighter) replaced with 2 Swarmer Missiles (Fighter).
+		Lantaka:
+			Insulated Engine hullmod removed.
+			Armor reduced from 125 to 100.
+			Vulcan Cannon is now a turret and is moved to the center of the sprite.
+			1 Vulcan Shotgun added.
+	Weapons:
+		Gyropult Bomb Bay added.
+		Light Tri-Autocannon:
+			Ordinance cost reduced from 7 to 6.
+			Flux per shot reduced from 60 to 50.
+			Charge down time increased from 0.525 to 0.6.
+			Maximum spread increased from 20 to 25.
+			Spread per shot increased from 3 to 4.
+		Light Calf Mortar:
+			Flux per shot reduced from 50 to 45.
+			Charge down time increased from 1.7 to 1.2.
+			Burst Delay time increased from 0.075 to 0.1.
+		Stubbon Thumper:
+			Damage per shot increased from 50 to 55.
+			Charge down time increased from 0.1 to 0.125.
+		Light Assault Mortar 40th:
+			Range increased from 600 to 700.
+			Ordinance cost increased from 8 to 9.
+		Twin Railgun 40th:
+			Charge down time increased from 1 to 0.9.
+		Quad Autocannon:
+			Flux per shot reduced from 90 to 85.
+			Ammo per second reduced from 2 to 1.6.
+			Charge down time increased from 0.99 to 1.05.
+		Hovlet Cannon:
+			Now has its own projectile.
+			Damage per shot increased from 75 to 85.
+			Charge down time increased from 0.1667 to 0.2.
+			Projectile Speed reduced from 1200 to 1000.
+		Mulleter Thumper:
+			Charge down time reduced from 3.25 to 2.9.
+		Bracken Assault Mortar:
+			Now fires rapidly from each barrel instead as an entire group.
+			Range reduced from 800 to 700.
+			Damage per shot reduced from 140 (700) to 110.
+			Flux per shot reduced from 120 (600) to 100.
+			Charge down time reduced from 2.2 to 0.2.
+			Minimum Spread reduced from 15 to 5.
+			Maximum Spread reduced from 30 to 20.
+			Spread per shot reduced from 2 to 1.
+			Spread decay rate increased from 1 to 20.
+		Contrada Flak Tower:
+			Ordinance cost reduced from 20 to 18.
+			Damage per shot increased from 250 to 300.
+			Ammo per second increased from 2 to 2.5.
+			Charge down time reduced from 0.9 (1.4) to 0.825 (1.2, + burst change).
+			Burst delay reduced from 0.1 to 0.075.
+			Projectile Speed increased from 700 to 800.
+		Hyvel Twin Driver:
+			Renamed to Hyvel Bolt Driver.
+			Does additional 50% damage as Fragmentation.
+			Range increased from 1000 to 1100.
+			Emp Damage removed.
+			Impact per shot increased from 45 to 50.
+			Flux per shot reduced from 350 to 325.
+			Charge down time increased from 0.5 to 0.75.
+		Phalanx Minigun Array:
+			Turn Rate increased from 25 to 30.
+			Damage per shot increased from 25 (200) to 30 (240).
+			Minimum Spread reduced from 20 to 0.
+			Spread per shot increased from 0.2 to 0.3.
+			Spread decay rate increased from 15 to 20.
+		Thunderslug Hellbore:
+			Charge down time reduced from 4 to 3.5.
+		Bente Swarm Launcher:
+			Ammo Capacity increased from 160 to 240.
+			Charge down time reduced from 13 to 12.575.
+			Burst delay reduced from 0.1 to 0.075.
+		Watusi LRM Launcher:
+			Missile damage type changed from High Explosive to Fragmentation.
+			Payload:
+				Damage type changed from High Explosive to Fragmentation.
+				Damage increased from 375 to 400.
+				Added 150 EMP damage.
+			Range reduced from 10000 to 4000.
+			Charge down time reduced from 12 to 9.25 (10, + burst).
+			Ammo per second increased from 0.1 to 0.1667, 1 for every 10 to 6 seconds.
+			Reload Size added from 0 to 4.
+			Flight Speed increased from 125 to 175.
+			Flight Time reduced from 80 to 30.
+		Lusis MIRV Launcher:
+			Munitions per burst reduced from 6 to 5, Total 24 to 20.
+			Time Delay between splits reduced from 5 to 2 seconds.
+		Vulcan Shotgun:
+			Range increased from 350 to 450.
+			Damage per shot increased from 25 (100) to 40 (200, + pellet increase).
+			Pellets per fire increased from 4 to 5.
+			Charge down increased from 0.5 to 1.
+		Colossus Mining Blaster:
+			Flux per shot reduced from 1200 to 800.
+			Charge down time increased from 3.4 to 3.7.
+			Projectile Speed increased from 700 to 900.
+
+**** Version 0.7.5b ****
+	Faction:
+		Fixed horribly incomplete slant of the faction's icon that has lingered throughout the mod's entire lifetime.
+	Ships:
+		XLCrew Warshots:
+			Fixed the incomplete script of the OP weapon reduction.
+		Cobalt:
+			Sprite adjusted and mounts have been moved to fit the weapons appropriately.
+			
+**** Version 0.7.5a ****
+	Ships:
+		Breezer Rounds:
+			Fixed hullmod locking out even when the according non-Built-in Ballistic Fragmentation weapons are removed.
+			0.7.5aa:
+				Fitted logic replaced with NonBuiltin.
+		Ferros:
+			Sprite adjusted and mounts have been moved to fit the weapons appropriately.
+
+**** Version 0.7.5 ****
+	Missions:
+		Scrapped the outdated Burning Sensation mission.
+	Ships:
+		(Significant change) All XLU ships will receive a base increase of maintenance and recovery cost of roughly 20%* (some can be lower or higher than this value). This directly increases deployment costs.
+		Added Heatflux Chamber Feed hullmod.
+		Added the 40th Ultra Battlegroup, one variant for each ship size.
+			Meant for an elite expirement for Blue's roster. If it works out they'll be kept.
+			These ship vary from direct upgrades to radical sidegrades.
+		XLU Armorclad Works:
+			Supply Maintenance penalty removed.
+			Supply Maintenance and Recovery cost reduction of 30% added to compensate the increased deployment cost.
+		Lanestate Breezer Rounds:
+			No longer has the current bonuses other than Fragmentation.
+			Removed Damage bonus, Hit Strength Bonus and Rate of fire.
+			Flux sensitive damage mechanic is moved to the new Heatflux Chamber Feed hullmod.
+			No longer drops from ruins. Only found in the XLU markets.
+			OP cost reduced from 4/8/14/24 to 3/6/10/18.
+			(New) Increases Fragmentation damage and flux requirements.
+			(New) Increases the OP cost of Ballistic Fragmentation weapons.
+		Frenzied Feed ship system:
+			Removed the Turning Penalty.
+			Rate of Fire bonus tuned down from +200% to +150%.
+		Alum:
+			Role changed from Heavy Gunship to Gunboat.
+		Brass:
+			Gretchin Systems and Advanced Turret Gyro built-in added.
+			Gatler built-in replaced with Hovlet built-in.
+			Hardpoint arcs increased from 5 to 10 degrees.
+			Ordinance points reduced from 55 to 50.
+		Calc:
+			Now sprite change and moved into a 40th Ultra Battlegroup frigate.
+			Accelerated Ammo Feed replaced with the new Charged Buster Feed that increases damage in exchange for firing speed and increased flux.
+			Modular slot changes:
+				From 1 Small Hybrid, 1 Small Missile, 1 Small Composite, 2 Medium Ballistic
+				To 2 Medium Ballistic, 1 Small Hybrid, 1 Small Missile, 1 built-in Gatler, 1 built-in 40th Autocannon.
+			Hull increased from 1500 to 3000.
+			Armor increased from 300 to 400.
+			Flux Capacity increased from 2200 to 4000.
+			Flux Dissipation increased from 200 to 350.
+			Ordinance points increased from 50 to 60.
+			Shield Efficiency reduced from 0.8 to 1.2.
+			Base Price increased from 32000 to 80000.
+		Gaul:
+			Ship system changed from Flares to Active Flares.
+		Espron:
+			Flux Capacity increased from 4000 to 6500.
+			Flux Dissipation increased from 320 to 450.
+			Ordinance reduced from 105 to 90.
+		Cobble:
+			Resprited.
+			Role changed from Freighter to Armored Freighter.
+			Ship system changed from Flares to Active Flares.
+			Modular slot changes:
+				From 2 Small Hybrid
+				To 3 Small Ballistic, 2 Small Composite, 2 built-in Gatlers.
+			Armor increased from 450 to 600.
+			Ordinance points increased from 25 to 35.
+			Flux Capacity increased from 1200 to 2000.
+			Flux Dissipation increased from 80 to 150.
+			Top speed increased from 50 to 60.
+			Acceleration increased from 25 to 30.
+			Deceleration increased from 10 to 20.
+			Mass increased from 400 to 500.
+		Azurim:
+			Sprite and Loadout overhaul and turned into a 40th Ultra Battlegroup Cruiser.
+			Role changed from Pocket Battlecruiser to Blockade Cruiser.
+			Added High Resolution Sensors.
+			Modular slot changes:
+				From 2 Large Ballistic, 4 Medium Ballistic, 2 Small Ballistic, 1 Large Missile
+				To 1 Large Hybrid, 2 Medium Composite, 4 Small Ballistic, 2 built-in Gratler.
+			Added 1 Armor module with 5 Small Ballistic.
+			Hull increased from 8000 to 9000.
+			Armor increased from 750 to 1250.
+			Flux Capacity reduced from 11000 to 9000.
+			Flux Dissipation reduced from 550 to 500.
+			Top Speed increased from 60 to 70.
+			Acceleration increased from 25 to 30.
+			Deceleration increased from 15 to 20.
+			Maximum Turn Speed increased from 12 to 18.
+			Mass reduced from 1800 to 1650.
+			Crew capacity increased from 225 to 300.
+			Cargo capacity increased from 200 to 300.
+			Fuel capacity increased from 180 to 240.
+			Peak Readiness time increased from 480 to 630.
+			Base Price increased from 100000 to 300000.
+			Original Supply Maintenance/Recovery Cost increased from 19 to 22.
+		Cobalt:
+			Flux Capacity increased from 10000 to 14000.
+			Flux Dissipation increased from 700 to 750.
+			Shield Efficiency reduced from 1 to 1.2.
+			Ordinance points reduced from 195 to 190.
+		Duralumin:
+			Flux Capacity increased from 6000 to 8000.
+			Flux Dissipation increased from 450 to 500.
+			Ordinance points reduced from 140 to 130.
+		Ferros:
+			Flux Capacity increased from 8000 to 10000.
+			Flux Dissipation increased from 600 to 700.
+			Top speed increased from 40 to 60.
+			Acceleration increased from 15 to 35.
+			Deceleration increased from 12 to 20.
+			Maximum Turn speed increased from 15 to 20.
+			Turn Acceleration increased from 6 to 8.
+		Sulfate:
+			Flux Capacity increased from 7000 to 9000.
+			Flux Dissipation increased from 400 to 550.
+			Ordinance points reduced from 130 to 100.
+		Carbide:
+			Flux Capacity increased from 2500 to 6000.
+			Flux Dissipation increased from 200 to 400.
+			Ordinance points reduced from 120 to 90.
+		Colossus (XLU):
+			Sprite adjustments.
+			Modular slot changes:
+				From 1 Medium Missile, 2 Small Missile, 8 Small Ballistic
+				To 2 Medium Ballistic, 2 Small Missile, 3 Small Ballistic, 2 Small Hybrid, 4 built-in Gratler.
+			Armor increased from 400 to 700.
+			Ordinance points increased from 60 to 75.
+			Flux Capacity increased from 3000 to 5000.
+			Flux Dissipation increased from 80 to 200.
+			Top speed increased from 35 to 45.
+			Acceleration increased from 20 to 25.
+			Deceleration increased from 10 to 15.
+			Maximum Turn speed increased from 10 to 15.
+			Turn Acceleration increased from 7 to 9.
+		Starliner (XLU):
+			Renamed to Starliner (Limited).
+			Manufacturer set from XLU to Low Tech.
+			Loses rare_bp tag. Meaning it can only be found in XLU markets and not dropped from ruins.
+		Oxide:
+			Resprited.
+			Modular slot changes:
+				From 1 Medium Ballistic, 1 Small Ballistic, 1 built-in Colossus Mining Blaster
+				To 1 Medium Ballistic, 1 Small Universal, 2 Small Ballistic, 4 built-in Gratler, 1 built-in Colossus Mining Blaster.
+			Armor increased from 600 to 800.
+			Flux Capacity increased from 3500 to 6000.
+			Flux Dissipation increased from 80 to 300.
+		Chrominus:
+			Sprite and Loadout overhaul.
+			Surveying Equipment hullmod replaced with High Resolution Sensors.
+			Role changed from Warfreight to Arsenal Ship.
+			Removed 2 modules.
+			Modular slot changes:
+				From 1 Large Ballistic, 2 Medium Composite, 2 Large Composite, 3 Small Missile, 3 Small Ballistic, 8 Medium Ballistic,
+				3 Hangar Bays
+				To 2 Large Missile, 1 Large Composite, 1 Large Hybrid, 2 Medium Missile, 3 Medium Ballistic, 3 Small Ballistic,
+				1 Hangar Bay, 4 built-in Gratler.
+			Hull reduced from 16000 to 11000.
+			Armor increased from 1200 to 1400.
+			Flux Capacity increased from 10000 to 15000.
+			Flux Dissipation increased from 450 to 700.
+			Top Speed increased from 30 to 60.
+			Acceleration increased from 10 to 25.
+			Deceleration increased from 6 to 12.
+			Maximum Turn Speed increased from 5 to 15.
+			Turn Acceleration increased from 3 to 6.
+			Mass reduced from 3750 to 3000.
+			Cargo reduced from 1600 to 600.
+			Fuel reduced from 800 to 600.
+			Fuel per light year reduced from 16 to 15.
+			Maximum Burn increased from 7 to 8.
+			Base Price increased from 220000 to 400000.
+			Shield Efficiency reduced from 1
+		Diaboleite:
+			Fleet Points increased from 22 to 26.
+			Role changed from Arsenal Ship to Tech Battleship.
+			Top speed increased from 40 to 70.
+			Acceleration increased from 15 to 25.
+			Deceleration increased from 10 to 20.
+			Maximum Turn speed increased from 8 to 10.
+			Turn Acceleration increased from 3 to 4.
+		Gadolinite:
+			Fleet Points increased from 32 to 34.
+			Flux Dissipation increased from 700 to 1000.
+			Ordinance points reduced from 330 to 310.
+		Kaolinite:
+			Fleet Points increased from 23 to 25.
+			Flux Dissipation increased from 600 to 700.
+			Shield Efficiency reduced from 0.9 to 1.
+			XLU:
+				Fleet Points increased from 25 to 30.
+				Flux Dissipation increased from 650 to 750.
+				Shield Efficiency reduced from 0.9 to 1.
+		Tritanite:
+		Anthracite:
+			Flux Capacity increased from 16000 to 20000.
+			Flux Dissipation increased from 700 to 750.
+			Arms:
+				Flux Dissipation increased from 400 to 450.
+			Anthracite (XLU):
+				Flux Capacity increased from 20000 to 24000.
+				Arms:
+					Flux Dissipation increased from 400 to 500.
+	Weapons:
+		Added the Contrada Flak Tower, fires an interruptible flak burst. Fulfills the role of old Devastator.
+		Added the Hovlet, an alternative Thumper. Cheap, simple and just fires Frag bullets.
+		Added the Mulleter, another Thumper variant. Replaces the old Amboss Thumper specs.
+		Added the Light Calf Mortar, a 4-burst Light Mortar with a moderate delay between.
+		Light Tri-Autocannons:
+			Resprited to fit its mount more approapriately.
+			Charge Down reduced from 0.6 to 0.525.
+		Heavy Shotcannon:
+			Tier raised from 0 to 1.
+		Momus Assault Gun:
+			Resprited.
+		Superheavy Shotcannon:
+			Fix description about how it lied about 32 shots when it does 30.
+			Damage recaculated with the correct shot count.
+			Flux per shot reduced from 1050 (35) to 900 (30).
+		Amboss Thumper:
+			Resprited.
+			Burst is interruptible.
+			Damage reduced from 150x2 to 100x2.
+			Flux per shot reduced from 35x2 to 30x2.
+			Ammo Capacity added to 240.
+			Ammo per second added to 12.
+			Reload size added to 240.
+			Charge down reduced from 4 to 0.5.
+			Burst delay increase from 0.05.
+		Phalanx Machinegun:
+			Resprited.
+			Renamed to Phalanx Minigun Array.
+			Damage type changed from Kinetic to Fragmentation.
+			Damage per shot reduced from 100 to 25x8.
+			Flux per shot reduced from 40 to 5x8.
+			Maximum Spread increased from 10 to 20.
+			Spread per shot reduced from 1 to 0.2.
+			Ammo Capacity added to 1200.
+			Ammo per second added to 80.
+			Reload size added to 1200.
+			Charge down reduced from 0.25 to 0.05.
+			Minimum Spread increased from 0 to 15.
+			Maximum Spread increased from 20 to 30.
+		Warbore:
+			Damage reduced from 550 to 500.
+			Flux per shot reduced from 600 to 400.
+			Ammo capacity reduced from 60 to 20.
+			Reload size reduced from 20 to 10.
+			Ammo regeneration reduced from 0.5 to 0.4 per second.
+			Charge down reduced from 1.05 to 0.9.
+
+**** Version 0.7.4aa ****
+	Campaign:
+		Renamed IndiEvo folder to IndEvo to fix the directional exacting of the Industrial Evolution script.
+
+**** Version 0.7.4a ****	
+	Ships:
+		Chrominus removal reversed.
+	  
+**** Version 0.7.4 ****
+	Very Important:
+		Some typos are fixed.
+	Campaign:
+		Lanestate Union man portrait is available for selection.
+		Hixon:
+			Is a now a Size 5 market.
+			Fuel Production moved to Tanfos II.
+		Kirogos:
+			Mining industry removed.
+		Nexerelin:
+			Updated faction relations.
+			XLU is now absolute Militarist, moderately Ideological and absolute anti-Hierarchial.
+			Now has Anarchist and One True Way traits, but loses Temperamental.
+		Commissioned Crews:
+			Lanestate Wartorn Gunners:
+				Renamed, again, to Lanestate Tourney Meisters.
+				Receives an additional buff should an XLCrew be installed:
+					Energy Flux efficiency from Waymakers.
+					Autoaim Accuracy and Range Threshold from Warshots.
+					Wing Damage Resistance from Hardy Boys.
+	Ships:
+		*Warning, Content Removal* Chrominus has been removed from the roster as Rhodochrosite fulfills its role, see below.
+		Power Burn now displays Flux Dissipation bonus in real time.
+		Added the Starcrusher, the real Starliner variant of the XLU. Spawns rarely.
+		Juggernaught Classification hullmod:
+			Streamlined the Range buffs to render the built-in Integrated Targeting Unit redundant.
+		XLCrew hullmod(s):
+			OP Cost changed from 3/6/10/15 to 5/10/20/30.
+		Lead:
+			Resprited and Overhauled.
+			Is now a Phase Frigate.
+			Modular slot changes:
+				From 1 Medium Ballistic, 2 Small  Ballistic, 2 Small Missiles
+				To 2 Medium Ballistic, 1 Small Composite.
+			Added Gretchin Systems and XLU Weapons Overhaul built-ins.
+			Fleet Points increased from 6 to 13.
+			Hull reduced from 1750 to 1500.
+			Armor increased from 400 to 500.
+			Flux Capacity increased from 2700 to 3500.
+			Flux Dissipation increased from 180 to 250.
+			Ordinance Points reduced from 55 to 45.
+			Maximum Turn Speed increased from 80 to 120.
+			Base Supply Maintenance/Recovery increased from 4 to 8.
+		Tin:
+			Power Burn ship system replaced with Vector Punch Jets.
+		Espron:
+			Redesignated from Heavy Gunboat to Heavy Destroyer.
+			2 Small Ballistic turrets converted to Gatler built-ins.
+			Armor increased from 800 to 1000.
+			Flux Capacity reduced from 6000 to 4000.
+		Stibium:
+			Resprited.
+			Added 2 Built-in Gatlers.
+			2 Small Composites changed to Missile.
+		Duralumin:
+			Hull increased from 7000 to 9000.
+			Armor increased from 900 to 1000.
+		Carbide:
+			Armor increased from 650 to 900.
+		Cobalt:
+			Resprited and Overhauled. Reverted back to its original role, a bloated Dominator.
+			Modular slot changes reverted back to pre-Gretchin specifications with slight angle adjustments.
+			Vector Punch Jets system replaced with Mad Man's Feed.
+			Fleet Points increased from 18 to 21.
+			Hull reduced from 10000 to 8500.
+			Armor reduced from 1550 to 1500.
+			Flux Dissipation increassed from 600 to 700.
+			Ordinance Points increased from 165 to 195.
+			Top Speed increased from 40 to 50.
+			Acceleration increased from 20 to 25.
+			Turn Acceleration increased from 4 to 6.
+			Mass reduced from 2400 to 1800.
+			Shield Arc increased from 120 to 150.
+			Base Supplies Maintenance/Recovery increased from 23 to 25.
+		Ferros:
+			Resprited and Overhauled.
+			Receives the new Cobalt role as the current one reverts to its old not!Dominator role.
+			Maneuvering Jets system replaced with Vector Punch Jets.
+			Gretchin built-in hullmod added.
+			Modular slot changes:
+				From 1 Small Composite, 2 Small Missile, 3 Small Hybrid, 4 Small Ballistic, 7 Medium Ballistic
+				To 1 Medium Universal, 12 Medium Ballistic, 4 Small Missile, 3 Built-in Grattlers.
+			Fleet points increased from 15 to 18.
+			Hull reduced from 9000 to 7000.
+			Armor reduced from 1250 to 1200.
+			Flux Capacity reduced from 9000 to 8000.
+			Flux Dissipation increased from 550 to 600.
+			Ordinance Cost reduced from 170 to 160.
+			Top Speed reduced from 50 to 40.
+			Acceleration reduced from 18 to 15.
+			Deceleration reduced from 15 to 12.
+			Turn Acceleration reduced from 10 to 6.
+			Shield Efficiency reduced from 1 to 1.2.
+			
+		Sulfate:
+			Resprited, once more.
+			Power Burn replaced with Accelerated Ammo Feeder.
+			Now has a COMBAT tag.
+			(New) Assault Deck Integration hullmod built-in added.
+			Modular slot changes:
+				From 1 Medium Composite, 2 Medium Ballistic, 2 Small Composite, 4 Small Ballistic, 2 Built-in Grattlers
+				To 2 Medium Composite, 5 Medium Ballistic, 1 Medium Hybrid, 4 Built-in Grattlers.
+			Flux Capacity increased from 6000 to 7000.
+			Flux Dissipation increased from 300 to 400.
+			Ordinance Points increased from 125 to 130.
+			Top Speed increased from 35 to 40.
+			Maximum Turn Speed increased from 20 to 30.
+			Turn Acceleration increased from 8 to 12.
+			Shield Type changed from OMNI to FRONT.
+			Shield Arc increased from 120 to 240.
+			Shield Efficiency increased from 1.2 to 1.
+			Crew Capacity increased from 420 to 450.
+		Scheelite:
+			Fleet points increased from 8 to 10.
+			Armor increased from 1000 to 1300.
+			Ordinance Points increased from 90 to 100.
+			Built-in Borers swapped with Mattocks.
+		Starliner (XLU):
+			Shield Efficiency reduced from 1 to 1.2.
+			Spawning rate pulled from 5 to 0.2.
+			Since this is going to be a collector's ship, its price is increased from 38000 to 250000.
+		Kaolinite:
+			Flux Capacity increased from 14000 to 16000.
+			Flux Dissipation increased from 500 to 600.
+			Top Speed increased from 35 to 40.
+			Acceleration increased from 18 to 20.
+			Deceleration increased from 15 to 18.
+			Maximum Turn Speed increased from 6 to 10.
+			Turn Acceleration increased from 5 to 7.
+			Ordinance Points increased from 275 to 280.
+			Crew Capacity increased from 1000 to 1200.
+			XLU:
+				Polished sprite.
+				Modular slot changes:
+					From 1 Medium Composite, 2 Medium Missile, 3 Large Ballistic, 4 Medium Ballistic, 4 Small Ballistic
+					3 Built-in Gatlers.
+					To 1 Medium Universal, 2 Medium Missile, 3 Large Ballistic, 4 Medium Ballistic, 2 Small Ballistic,
+					2 Small Hybrid, 5 Built-in Gatlers.
+				Flux Capacity increased from 15000 to 17500.
+				Flux Dissipation increased from 550 to 650.
+				Top Speed increased from 40 to 45.
+				Acceleration increased from 18 to 22.
+				Deceleration increased from 15 to 18.
+				Maximum Turn Speed increased from 6 to 11.
+				Turn Acceleration increased from 5 to 8.
+				Mass increased from 3300 to 3400.
+				Ordinance Points increased from 285 to 290.
+				Crew Capacity increased from 1050 to 1350.
+				Cargo Capacity increased from 500 to 550.
+		Pyridoxate:
+			Flux Dissipation reduced from 600 to 500.
+		Rhodochrosite:
+			Resprited and overhauled.
+			Designation changed from Superfreighter to Dreadfreight.
+			Flare Launcher replaced with Reserved Wing.
+			Modular slot changes:
+				From 2 Medium Ballistic, 4 Small Energy, 8 Small Ballistic
+				To 2 Medium Hybrid, 2 Medium Composite, 2 Hangar Bays and 8 Built-in Gratlers.
+			(New) Extensive Logistics hullmod built-in added.
+			Fleet Points increased from 15 to 26.
+			Hull increased from 12000 to 16000.
+			Armor increased from 1300 to 1400.
+			Flux Capacity increased from 10000 to 12000.
+			Flux Dissipation increased from 400 to 600.
+			Ordinance Points increased from 165 to 220.
+			Shield Type changed from Front to Omni.
+			Shield Arc reduced from 120 to 90 degrees.
+			Shield Efficiency increased from 1 to 0.9.
+			Skeleton Crew increased from 150 to 450.
+			Crew Capacity increased from 600 to 1000.
+			Cargo Capacity increased from 3200 to 4000.
+			Fuel per Lightyear increased from 12 to 20 (Range from 125 to 75).
+			Base Supply Maintenance/Recovery increased from 20 to 36.
+			Base Price increased from 125000 to 345000.
+			Added 3 Engine Block modules where you can shoot them off and make the core block float helplessly in space.
+		Anthracite:
+			Fixed the (admittedly) lingering incorrect hullmods that have been through several versions already.
+		Uranium:
+			Replaced Power Burn with Steel Power Burn.
+	Wings:
+		Mattock:
+			Added a Vulcan turret with a 2/3 coverage to emphasize its role.
+			Added another Mining Laser, from 2 to 3.
+			OP cost reduced from 8 to 6.
+		Kalis:
+			Fleet points increased from 10 to 14.
+			Wing Range reduced from 6000 to 3000.
+			Refit Time increased from 36 to 50.
+			Flux Capacity reduced from 500 to 400.
+			Shield Type changed from FRONT to OMNI.
+			Shield Efficiency reduced from 0.8 to 1.
+	Weapons:
+		Added the Bente Swarm Launcher, the does exactly what it says.
+		Hypervelocity Flak:
+			Renamed to Hypershot Flak Cannon.
+			Ranged reduced from 900 to 700.
+			Damage increased from 300 to 600.
+			Turn Rate reduced from 30 to 10.
+			Charge Down increased from 1.2 to 2.0.
+			Projectile Speed reduced from 1350 to 1000.
+			Projectile Hitpoints increased from 50 to 200.
+		Magpulse Disruptor:
+			Added tooltip about its characteristic.
+			Damage per second increased from (400) 147 to (1200) 200.
+			EMP Damage added from 0 to (400) 200.
+			Flux per second increased from (240) 84 to (800) 93.
+			Charge Down increased from 0.3 to 0.65.
+			Burst Time reduced from 0.6 to 0.25.
+			Burst Delay increased from 1 to 2.
+		Gaskilo:
+			Range reduced from 600 to 500.
+			Role String renamed from Denial to Area Denial.
+		Gaston:
+			Damage per shot reduced from 30 to 25.
+			Flux per shot reduced from 50 to 35.
+			Range reduced from 700 to 600.
+			Role String renamed from Denial to Area Denial.
+		Phalanx Machine Gun:
+			Tier toned down from 2 to 0.
+			Base Price reduced from 6000 to 3000.
+			Damage increased from 80 to 100.
+			Flux per shot reduced from 50 to 40.
+			Charge Down increased from 0.2 to 0.25.
+		Quilfling Rack Pod:
+			Charge Down reduced from 2.97 to 2.9.
+		Quilfling Rocket Barrage: (You would have already expected this.)
+			Ammo Capacity reduced from 1200 to 400.
